@@ -1,6 +1,6 @@
 add_executable(mylib_unit_tests)
 target_sources(mylib_unit_tests PRIVATE
-  # TODO: add source files
+  unit_tests.c
   $<TARGET_OBJECTS:mylib>
 )
 
